@@ -30,4 +30,6 @@ describe('HeaderComponent', () => {
     expect(fixture.nativeElement.querySelector('[data-test="searchbar"]')).toBeTruthy();
 
   })
+
+
 });

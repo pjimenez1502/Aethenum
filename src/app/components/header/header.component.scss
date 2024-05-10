@@ -1,0 +1,28 @@
+@use '@angular/material' as mat;
+
+.logo {
+    width: 48px;
+    height: 48px;
+}
+
+.form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+
+.full-width{
+    width: 100%;
+}
+
+.dense-2 {
+    @include mat.all-component-densities(-2);
+  }
+
+mat-form-field {
+    position: relative;
+  }
+
+.spacer {
+    flex: 1 1 auto;
+}
